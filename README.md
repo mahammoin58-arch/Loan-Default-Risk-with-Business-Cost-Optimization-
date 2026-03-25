@@ -3,16 +3,16 @@ Predict the likelihood of a loan default and optimize the decision threshold bas
 
 # Task Objective
 
-The main objective of this project is to predict whether a customer will accept a personal loan offer.
-Machine learning techniques are applied to analyze customer demographics and financial attributes to support better decision-making for banks.
+The main objective of this project is to predict the likelihood of a loan default and optimize decision-making using cost-benefit analysis.
+The goal is to help financial institutions minimize losses by selecting an optimal probability threshold for approving or rejecting loan applications.
 
 # My Approach
-I followed a structured data science workflow to complete this project:
+I followed a structured data science workflow:
 
 1. Data Loading & Understanding
 
-- Loaded the dataset using pandas
-- Examined data structure, columns, and data types
+- Loaded dataset using pandas
+- Explored features, structure, and data types
 
 2. Data Preprocessing
 
@@ -22,14 +22,14 @@ I followed a structured data science workflow to complete this project:
 
 3. Exploratory Data Analysis (EDA)
 
-- Analyzed target variable distribution
-- Identified key patterns and relationships
-- Used visualizations (Matplotlib & Seaborn)
+- Analyzed default vs non-default distribution
+- Identified key risk factors
+- Visualized relationships using Matplotlib & Seaborn
 
 4. Feature Engineering
 
-- Selected important features
-- Prepared data for modeling
+- Selected important features influencing default risk
+- Prepared dataset for modeling
 
 5. Model Building
 
@@ -40,17 +40,25 @@ I followed a structured data science workflow to complete this project:
 
 - Accuracy
 - Confusion Matrix
-- Classification Report (Precision, Recall, F1-score)
+- Precision, Recall, F1-score
+- ROC-AUC Score
 
+7. Business Cost Optimization
+
+- Defined cost of false positives and false negatives
+- Adjusted probability threshold
+- Selected optimal threshold to minimize total business cost
+  
 # Results and Findings
-- Random Forest outperformed Logistic Regression in terms of overall performance
-- Features such as income, education level, and credit card usage had a strong influence on loan acceptance
-- Slight class imbalance was observed in the dataset
-- The model provides useful insights for targeted marketing strategies
+- Random Forest provided better predictive performance
+- Key factors influencing default risk included income, credit history, and loan-related attributes
+- Class imbalance was observed in the dataset
+- Optimizing the decision threshold significantly reduced potential financial loss
 
 # Conclusion
 
-This project demonstrates how machine learning can help financial institutions:
-- Identify potential customers
-- Improve marketing efficiency
-- Optimize loan approval strategies
+This project shows how machine learning combined with business logic can:
+
+- Improve risk assessment
+- Reduce financial losses
+- Support smarter loan approval decisions
