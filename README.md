@@ -1,12 +1,12 @@
 # Loan-Default-Risk-with-Business-Cost-Optimization-
 Predict the likelihood of a loan default and optimize the decision threshold based on  cost-benefit analysis.  
 
-#🔹 Task Objective
+# Task Objective
 
 The main objective of this project is to predict whether a customer will accept a personal loan offer.
 Machine learning techniques are applied to analyze customer demographics and financial attributes to support better decision-making for banks.
 
-#🔹 My Approach
+# My Approach
 I followed a structured data science workflow to complete this project:
 
 1. Data Loading & Understanding
@@ -42,7 +42,7 @@ I followed a structured data science workflow to complete this project:
 - Confusion Matrix
 - Classification Report (Precision, Recall, F1-score)
 
-#🔹 Results and Findings
+# Results and Findings
 - Random Forest outperformed Logistic Regression in terms of overall performance
 - Features such as income, education level, and credit card usage had a strong influence on loan acceptance
 - Slight class imbalance was observed in the dataset
